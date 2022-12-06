@@ -1,5 +1,5 @@
 def main(input):
-    for i in range(len(input) - 14):
+    for i in range(14, len(input) - 14):
         if len(set(input[i-14:i])) == 14:
             print(i)
             break
